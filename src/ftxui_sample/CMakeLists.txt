@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE image_histogram::image_histogram_options
+          image_histogram::image_histogram_warnings)
 
 target_link_system_libraries(
   intro
